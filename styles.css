@@ -1,0 +1,149 @@
+/*ChatGPT helped create this CSS document
+https://chatgpt.com/c/69bd492d-0090-832f-ad51-0a7719ae78d5
+Animation created using ChatGPT
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(174, 186, 222);
+    text-align: center;
+    font-size: larger;
+    padding: 15px 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+#score {
+    text-align: center;
+    margin: 5px auto;
+    background-color: white;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+body{
+    background-color: #edfeff;
+    margin: 0;
+}
+#image-stage {
+    background-color: rgb(174, 186, 222);
+    border-radius: 20px;
+    width: 85%;
+    margin: 30px auto 0 auto;
+    padding: 20px 20px;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#images, #reveal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap:  wrap;
+    width: 100%;
+}
+
+#images img,
+#reveal img {
+    transition: opacity 0.6s ease;
+    height: 200px;
+    width: auto;
+}
+
+#scissors, 
+#rock {
+    transform: scale(0.75);
+}
+
+.reveal-card {
+    text-align: center;
+}
+
+.reveal-card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#options {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button {
+    width: 200px;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(254, 197, 197);
+    border-radius: 50px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(240, 170, 170);
+}
+
+button:active{
+    background-color: #edfeff;
+}
+
+table{
+    padding-right: 120px;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+
+td {
+    font-size: 22px;
+}
+
+th {
+    font-size: 24px;
+}
+
+#decision {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.fade-out{
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.hidden {
+    display: none !important;
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
