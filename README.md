@@ -52,14 +52,17 @@ The computer randomly chooses one option as well. The game then compares both ch
 project-folder/
 │── index.html
 │── style.css
-│── main.js
-│── logo.png   (optional)
+│── gameOptions.js
+│── scissors.png
+│── rock.png
+│── paper.png  
+│── logo.png  
 ```
 
 ## Installation / How to Run
 
 1. Download or clone the project files.
-2. Make sure `index.html`, `style.css`, and `main.js` are in the same folder.
+2. Make sure `index.html`, `style.css`, and `gameOptions.js` are in the same folder.
 3. Open `index.html` in your browser.
 
 ## What I Learned
